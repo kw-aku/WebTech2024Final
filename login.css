@@ -1,0 +1,89 @@
+body{
+    font-family: Inter;
+    background-color: #111111;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+form{
+    position: relative;
+    top: 20vh;
+    left: 35vw;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    height: 30em;
+    width: 30em;
+}
+
+#email, #password,#submit{
+    position: relative;
+    width: 25em;
+    height: 3.5em;
+    top: 5em;
+    left: 5em;
+    margin-top: 1.2em;
+    border: none;
+    border-radius: 3px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+#headline{
+    position: relative;
+    top: 2.2em;
+    font-size: 35px;
+    font-weight: bold;
+    left: 2.2em;
+}
+
+#sub-headline{
+    position: relative;
+    font-size: 12px;
+    font-weight: 200;
+    top: 6.1em;
+    left: 6.5em;
+}
+
+#email, #password{
+    background-color: #D9D9D9;
+    padding-left: 1em;
+}
+
+#email::placeholder, #password::placeholder{
+    color: #6C6A6A;
+}
+
+#submit{
+    width: 26em;
+    background-color: #FF7518;
+    color: #F5F5F5;
+}
+#email:hover, #password:hover, #submit:hover{
+    transform: scale(1.1);
+}
+
+#email:focus, #password:focus{
+    outline: none;
+    color: #6C6A6A;
+}
+
+#register-txt{
+    position: relative;
+    font-size: 12px;
+    left: 10vw;
+    top: 11vh;
+    color: #6C6A6A;
+}
+
+#register-btn{
+    transition: .3s;
+    cursor:pointer ;
+}
+
+#register-btn:hover{
+    font-size:18px;
+    color: #111111;
+}
